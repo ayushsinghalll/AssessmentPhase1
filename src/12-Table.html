@@ -47,7 +47,7 @@
                 <td><input type="button" value="Delete" onclick="deleteRow(this)" style="background-color: red;"></td>
             </tr>
         </table>
-        <br><br><input type="button" value="full delete" onclick="deleteRows()">
+        <br><br><input type="button"id="all" value="full delete" onclick="deleteRows()">
     </center>
         <script>
             function deleteRow(r) {
@@ -56,6 +56,8 @@
             }
             function deleteRows() {
                 $("#table1").detach();
+                const btn=document.getElementById('all')
+                btn.style.display='none'
             }
         </script>
     </body>

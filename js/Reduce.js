@@ -9,6 +9,6 @@ const average = numbers.reduce((a, b) => a + b, 0) / numbers.length;
 
 console.log("Sum of all Numbers ",sum);
 console.log("Sub of all Numbers ",sub);
-console.log("Average of all Numbers",average);
+console.log("Average of all Numbers",average.toFixed(2));
 
 

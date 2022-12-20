@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body{
+      background-color: rgb(0, 0, 185);
+    }
+    form{
+      display: flex;
+      flex-wrap: wrap;
+    }
+    #form{
+      flex: 60%;
+    }
+    fieldset{
+      border: 3px solid white;
+    }
+    .container{
+      margin-top: 10%;
+      margin-left: 22%;
+      margin-right: 22%;
+      width: 60%;
+      background-color: rgb(0,190,25);
+    }
+    input{
+      width: 120%;
+      margin-top: 3%;
+    }
+#functions{
+flex: 30%;
+border: 3px solid white;
+text-align: center;
+margin-left: 3%;
+}
+.fun{
+width: 90%;
+margin: 2%;
+padding: 2%;
+}
+#bottomFun{
+margin-left: 1%;
+margin-top: 2%;
+padding: 2%;
+border: 3px solid white;
+}
+.bfun{
+width: 25.2%;
+margin-left: -5px;
+height: 35px;
+}
+label{
+margin-top: 3%;
+}
+
+
+
+
+</style>
+</head>
+<body>
+<div class="container">
+  <fieldset>
+    <legend>Employee's Information System Version 1.0</legend>
+    <div id="empBox">
+
+
+
+      <form action="" method="post">
+
+        <div id="form">
+          <table>
+            <tr>
+              <td><label for="empNum">Employe Number</label></td>
+              <td><input type="text" name="empNum" id="empNum" placeholder="Employee Number" required ></td>
+            </tr>
+            <tr>
+              <td><label for="empName">Employe Name</label></td>
+              <td><input type="text" name="empName" id="empName" required placeholder="Employee Name"></td>
+            </tr>
+            <tr>
+              <td><label for="cityAdd">City Address</label></td>
+              <td> <address><input type="text" placeholder="Address" name="cityAdd" id="add" required></address> </td>
+            </tr>
+            <tr>
+              <td><label for="dob">Date of Birth</label></td>
+              <td><input type="text" name="dob" id="dob" ></td>
+            </tr>
+            <tr>
+              <td><label for="tel">Telephone Number</label></td>
+              <td><input type="tel" name="tel" id="tel" required placeholder="Telephone Number"></td>
+            </tr>
+            <tr>
+              <td><label for="dp">Department</label></td>
+              <td><input type="dp" name="dp" id="dp" required placeholder="Department"></td>
+            </tr>
+          </table>
+        </div>
+        <div id="functions">
+          <button  class="fun" id="ad" >ADD</button><br>
+          <button class="fun" id="delete">DELETE</button><br>
+          <button class="fun" id="update">UPDATE</button><br>
+          <button class="fun" id="search">SEARCH</button><br>
+          <button class="fun" id="about">ABOUT</button><br>
+          <button class="fun" id="quit">QUIT</button><br>
+        </div>
+      </form>
+      <div id="res"></div>
+    </div>
+    <div id="bottomFun">
+      <button class="bfun" id="first">Move First</button>
+      <button class="bfun" id="next">Move Next</button>
+      <button class="bfun" id="previous">Move Previous</button>
+      <button class="bfun" id="last">Move Last</button>
+    </div>
+  </fieldset>
+</div>
+<script src="../js/Employee.js"></script>
+</body>
+</html>

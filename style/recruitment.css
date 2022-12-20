@@ -1,6 +1,13 @@
 body{
     background-color: mintcream;
 }
+.form{
+    margin: 55px;
+    padding-left: 56px;
+    border: 1px solid;
+    width: 560px;
+    background-color: antiquewhite;
+}
 form{
     padding: 5px;
     margin: 5px;

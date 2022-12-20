@@ -39,13 +39,13 @@
                 <input type="text" id="runner" maxlength="10" placeholder="First and Last Name" required><br>
 
                 <label for="tel">Tel* #</label>
-                <input type="tel" id="tel" placeholder="xxx-xxx-xxxx" required><br>
+                <input type="tel" id="tel" placeholder="xxx-xxx-xxxx"maxlength="12" required pattern="[0-9]{3}-{0-9}-[0-9]{4}"><br>
 
                 <label for="email">Email*</label>
                 <input type="email" id="email" placeholder="Email Id" required><br>
 
                 <label for="dob">DOB*</label>
-                <input type="date" id="dob" placeholder="" required><br>
+                <input type="date" id="dob" placeholder="" max="2020-12-20" required><br>
 
             </div>
 

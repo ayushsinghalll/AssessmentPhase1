@@ -1,17 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <title>Recruitment Form</title>
     <link rel="stylesheet" href="../style/recruitment.css">
 </head>
 <body>
+<center>
   <div class="form">
     <form id="form">
       <label for="first">Enter First Name:</label>
-      <input type="text" required id="first"><br>
+      <input type="text" required id="first" onkeypress="return (event.charCode > 64 &&
+	event.charCode < 91) || (event.charCode > 96 && event.charCode < 123)"><br>
       <label for="last">Enter Last Name:</label>
-      <input type="text" required id="last"><br>
+      <input type="text" required id="last" onkeypress="return (event.charCode > 64 &&
+	event.charCode < 91) || (event.charCode > 96 && event.charCode < 123)"><br>
       <label for="email">Email Address:</label>
       <input type="email" required id="email"><br>
       <label for="check">Programs attended:</label>
@@ -20,14 +23,14 @@
       <input type="checkbox">Oracle
       <br>
       <label for="radio">Select the stream you belong to:</label>
-      <input type="radio" id="radio">Mech
-      <input type="radio">EEE
-      <input type="radio">Cs
-      <input type="radio">IT
+      <input type="radio" name="steam" class="radio">Mech
+      <input type="radio" name="steam" class="radio">EEE
+      <input type="radio" name="steam" class="radio">Cs
+      <input type="radio" name="steam" class="radio">IT
       <br>
       <label for="select">Which training program would you like to attend ?</label>
-      <select id="select">
-        <option>HTML5 Advanced</option>
+      <select id="select" multiple>
+        <option selected >HTML5 Advanced</option>
         <option>Javascript</option>
         <option>Angular</option>
       </select>
@@ -40,5 +43,6 @@
       <input type="reset"value="reset">
     </form>
   </div>
+</center>
 </body>
 </html>

@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <title>Number guessing game</title>
+        <style>
+            body{
+                padding: 65px;
+                color: yellow;
+            }
+            .guess{
+                background-color: #fc6d38;
+                border: 1px solid;
+            }
+            h1,p{
+                text-align: center;
+            }
+            body {
+                width: 50%;
+                max-width: 800px;
+                min-width: 480px;
+                margin: 0 auto;
+            }
+            .form{
+                margin: 50px;
+
+            }
+            .lastResult {
+                color: white;
+                padding: 3px;
+            }
+            .guessSubmit{
+                border: 1px solid blue;
+                background-color: green;
+                color: white;
+
+            }
+        </style>
+    </head>
+    <body>
+    <div class="guess">
+        <h1 style="margin: 55px">Number guessing game</h1>
+        <p>Select a random number between 4-10. You only get 3 chances.</p>
+        <center>
+        <div class="form">
+            <input type="text" id="guessField" placeholder="enter your guess">
+            <input type="submit" value="Submit guess" class="guessSubmit">
+        </div>
+        <div class="resultParas">
+            <p class="guesses"></p>
+            <p class="lastResult"></p>
+            <p class="lowOrHigh"></p>
+        </div>
+        </center>
+    </div>
+       <script src="../js/guess.js"></script>
+    </body>
+</html>
