@@ -1,0 +1,49 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #16b1e3;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+table {
+  margin: 55px;
+  border-collapse: collapse;
+}
+
+tr {
+  border: 1px solid #dfdfdf;
+}
+
+th {
+  background-color: cornflowerblue;
+  color: white;
+}
+
+th, td {
+  padding: 2px 50px 13px 15px;
+}
+
+tr:nth-child(even) {
+  background: #16b1e3;
+}
+
+footer {
+  background-color: deepskyblue;
+  color: white;
+  padding: 22px;
+}
+
+/*# sourceMappingURL=report.css.map */

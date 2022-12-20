@@ -1,0 +1,46 @@
+header{
+    padding: 10px;
+    margin: 5px;
+    background-color: purple;
+    text-align: center;
+    color:white;
+}
+.container{
+    display: flex;
+
+}
+.container p{
+    font-weight: bold;
+}
+.one{
+    background-color: aqua;
+    flex: 80%;
+    margin: 10px;
+    padding: 25px;
+
+}
+.two{
+    background-color: aqua;
+   flex: 80%;
+    margin: 10px;
+    padding: 25px;
+}
+.three{
+    margin: 10px;
+    background-color: aqua;
+    padding: 25px;
+}
+
+.container1{
+    display: flex;
+}
+.btn{
+    margin: 20px;
+    flex: 33%;
+}
+.btn1{
+
+    margin: 5px;
+    width: 100%;
+
+}

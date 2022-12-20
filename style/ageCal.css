@@ -1,0 +1,23 @@
+header{
+    background-color: dodgerblue;
+    color: white;
+    padding: 35px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+form{
+    padding: 25px;
+}
+
+input{
+    padding: 5px;
+    margin: 5px;
+}
+
+#cal{
+    border: 3px solid blue;
+    background-color: dodgerblue;
+    color: white;
+    
+}

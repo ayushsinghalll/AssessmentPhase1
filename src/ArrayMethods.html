@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array</title>
+
+    <style>
+        input{
+            margin: 1%;
+        }
+        .container{
+            display: flex;
+            /* margin-left: 10%; */
+            /* margin-top: 10%; */
+            border: 2px dotted black;
+            margin-right: 10%;
+            padding: 10%;
+        }
+        button{
+            padding: 1%;
+            margin: 1%;
+        }
+        .buttons{
+            flex: 20%;
+            /* border: 1px solid black; */
+
+        }
+        .result{
+            flex:40%;
+            margin: 1%;
+        }
+        .clearInput{
+            margin-top: 1%;
+            float: right;
+            margin-right: 18%;
+            text-align: right;
+
+        }
+
+        #submit{
+            margin-top: 20%;
+        }
+
+        .butt{
+            width: 110%;
+            padding: 5px;
+        }
+
+    </style>
+
+
+</head>
+<body>
+<div class="container">
+    <div class="buttons">
+        <button id="ad">Add Element</button>
+        <button id="removeTop">Remove Top</button>
+        <button id="removeBottom">Remove Bottom</button>
+        <button id="removeAll">Remove All</button><br>
+        <div class="clearInput">
+            <button id="clearInput" class="butt">ClearInputBox</button><br>
+            <button id="upperCase" class="butt">UperCase</button><br>
+            <button id="lowerCase" class="butt">Lower Case</button>
+        </div>
+
+        <div id="innerDiv">
+
+
+
+
+        </div>
+
+        <button id="submit">Submit</button>
+    </div>
+
+
+
+    <div class="result">
+        <h2 style="margin-left:10%;">Your Selected Items are</h2>
+        <ul type="none" id="result">
+
+        </ul>
+
+    </div>
+</div>
+
+
+<script src="../js/ArrayMethod.js"></script>
+</body>
+</html>

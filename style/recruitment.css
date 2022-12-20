@@ -1,0 +1,16 @@
+body{
+    background-color: mintcream;
+}
+form{
+    padding: 5px;
+    margin: 5px;
+}
+label{
+    font-weight: bold;
+}
+input,select{
+    padding: 5px;
+    margin: 5px;
+}
+
+
